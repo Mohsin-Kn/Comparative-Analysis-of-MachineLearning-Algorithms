@@ -5,21 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Project Title](#project-title)  
-2. [Description](#description)  
-3. [Dataset](#dataset)  
-4. [Model Training & Results](#model-training--results)  
-5. [Repository Structure](#repository-structure)  
-
----
-
-## Project Title
-
-**DS-Parkinsons-ML-Project**
-
----
 
 ## Description
 
