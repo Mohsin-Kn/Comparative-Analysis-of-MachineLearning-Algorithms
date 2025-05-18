@@ -1,4 +1,4 @@
-# DS-Parkinsons-ML-Project
+# DS-Project
 
 **Comparative Analysis of Machine Learning Algorithms on the UCI Parkinson’s Voice Dataset**  
 *Data Science course project*
