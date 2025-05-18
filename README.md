@@ -11,29 +11,19 @@
 This Data Science course project benchmarks five different machine learning algorithms on the UCI Parkinson’s Voice dataset to determine which approach best distinguishes Parkinson’s‐positive patients from healthy controls. We perform the following steps:
 
 1. **Data Loading & Preprocessing**  
-   - Drop identifiers, separate features and labels, and perform a stratified train/test split.
 
 2. **Feature Scaling**  
-   - Apply MinMax scaling (range = [−1, 1]) fit on training data only, then transform both train and test sets.
 
 3. **Class‐Imbalance Handling**  
-   - Use `class_weight='balanced'` or SMOTE oversampling (for algorithms that don’t accept class weights) to address the ~75% Parkinson’s / ~25% healthy split.
 
-4. **Feature Selection (Optional)**  
-   - Filter out features with high pairwise correlation (|ρ| > 0.90) and/or select top 10 features based on tree‐based importances or univariate ANOVA F‐tests.
-
-5. **Model Training & Hyperparameter Tuning**  
-   - Train and tune the following classifiers via 5‐fold cross‐validated GridSearchCV (scoring = ROC‐AUC):
+4. **Model Training & Hyperparameter Tuning**  
      - Decision Tree (DT)  
      - Random Forest (RF)  
      - Logistic Regression (LR)  
      - Support Vector Machine (SVM)  
      - XGBoost (XGB)  
 
-6. **Evaluation**  
-   - Evaluate on held‐out test set using accuracy, precision, recall, F₁‐score, and R²‐score for each model.
-
-7. **Comparison & Interpretation**  
+5. **Comparison & Interpretation**  
    - Compare performance and highlight the top-performing model in terms of accuracy, F₁‐score, recall, precision, and R²‐score.
 
 ---
