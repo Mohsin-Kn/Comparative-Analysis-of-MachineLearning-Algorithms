@@ -58,4 +58,5 @@ Each algorithm was tuned via `GridSearchCV` (5‐fold, scoring = ROC‐AUC) on t
 | Precision  | 0.958333 | 0.961538 | 0.900000 | 1.000000 | 0.892857 |
 | R2-Score   | 0.724942 | 0.862471 | 0.312354 | 0.862471 | 0.724942 |
 
+![Models Comparison](comparison.png)
 ---
